@@ -1,0 +1,392 @@
+*, 
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'Nunito Sans', serif;
+}
+p {
+    font-weight: 300;
+    font-size: .75rem;
+}
+.cookies-text {
+    font-weight: 300;
+    font-size: 1rem;
+}
+.cookies-text a {
+    color: #FFFFFF;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    overflow-x: hidden;
+    line-height: 0;
+    margin: 0;
+    text-align: left;
+    color: #9190A6;
+    background: -o-linear-gradient(30deg, rgba(0,10,38,1) 0%, rgba(32,28,59,1) 100%);
+    background: linear-gradient(60deg, rgba(0,10,38,1) 0%, rgba(32,28,59,1) 100%);
+}
+.main-container {
+    padding: 9.26vh 14.271vw 0 14.271vw;
+}
+.container {
+    margin: 0;
+    padding: 0;
+}
+.page-header {
+    background-position: center center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.page-header.container.col-lg-6:first-child {
+    z-index: 2;
+}
+#landing-title {
+    width: 32.7083vw;
+    height: 16.3vh;
+    font-weight: 800;
+    font-size: 7.37962vh;
+    line-height: 7.40741vh;
+    color: #FFFFFF;
+}
+#landing-subtext {
+    width: 30.364583vw;
+    height: 10.37vh;
+    font-weight: 400;
+    font-size: 2.3148vh;
+    line-height: 3.241vh;
+    color: #9190A6;
+    margin: 1rem 0 3rem 0;
+}
+#landing-form-text {
+    width: 33.75vw;
+    height: 3.148vh;
+    font-weight: 400;
+    font-size: 1.852vh;
+    line-height: 2.8vh;
+    color: #9190A6;
+}
+#landing-email,
+#landing-city {
+    width: 17.5vw;
+    height: 5.463vh;
+}
+textarea {
+    height: 117px !important;
+}
+input.form-control,
+input.form-control:focus,
+textarea.form-control,
+textarea.form-control:focus
+{
+    font-family: 'Nunito Sans', serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    display: block;
+    color: #FFFFFF !important;
+    padding: 1.2rem 1.2rem;
+    border: .1rem solid #9190A6;
+    border-radius: .5rem;
+    background-color: inherit;
+    background-clip: padding-box;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.btn
+{
+    text-transform: none;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    display: inline-block;
+    padding: .6rem 2rem;
+    width: 8rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+    border-radius: 3rem;
+    border: solid 0px transparent;
+    background: -webkit-gradient(linear, left top, right top, from(#F83683), color-stop(20%, #F83B81), color-stop(60%, #F4885E), color-stop(130%, #F6D56E));
+    background: -o-linear-gradient(left, #F83683 0%, #F83B81 20%, #F4885E 60%, #F6D56E 130%);
+    background: linear-gradient(90deg, #F83683 0%, #F83B81 20%, #F4885E 60%, #F6D56E 130%);
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.btn:focus, 
+.btn:hover {
+    color: #ffffff;
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
+}
+img.shapes-01 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 57vw;
+    z-index: -1;
+}
+img.shapes-02 {
+    position: absolute;
+    max-height: 150vh;
+    left: 0;
+    bottom: -230px;
+    z-index: -1;
+}
+img.shapes-03 {
+    position: absolute;
+    max-height: 140vh;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+img.phone-01 {
+    position: absolute;
+    right: 34%;
+    width: 36%;
+    margin-top: 80px;
+    z-index: 2;
+}
+.phone-02 {
+    position: absolute;
+    left: 61.2494791vw;
+    top: 23vh;
+    display: block;
+    height: 47.375vh;
+    width: 13.340625vw;
+    min-height: 400px;
+    min-width: 200px;
+}
+.phone-02 video {
+    position: absolute;
+    -o-object-fit: fill;
+        object-fit: fill;
+    padding: 1.5vh 1vw;
+    height: 100%;
+    width: 100%;
+}
+.phone-02 .video-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.phone-02 .video-container::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border-top: 10px solid;
+    border-bottom: 10px solid;
+    border-left: 10px solid;
+    border-right: 10px solid;
+    -o-border-image:
+        url("assets/phone-0202.png") 100 / 2vw;
+        border-image:
+        url("assets/phone-0202.png") 100 / 2vw;
+}
+.header-logo {
+    width: 2.8786458vw;
+    margin: 0 0 7.37963vh 0;
+}
+.main-content {
+    position: relative;
+}
+.section {
+    background-position: center center;
+    background-size: cover;
+}
+.image-container {
+    position: relative;
+}
+.image-container img.phone-tabs {
+    max-height: 90vh;
+    width: auto;
+    position: absolute;
+    left: 0;
+    top: -45vh;
+}
+.section-download {
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.section-download-description {
+    text-align: right;
+}
+.section-download-description h1 {
+    font-weight: 800;
+    font-size: 3.3125rem;
+    line-height: 4rem;
+    color: #FFFFFF;
+}
+.section-download-description h6 {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    color: #9190A6;
+    margin: 1rem 0 2rem 0;
+}
+.section-download-description a {
+    display: block;
+}
+.section-download-description a.download-btn img {
+    max-width: 150px;
+}
+.contact-form h1 {
+    font-weight: 800;
+    font-size: 3.3125rem;
+    line-height: 4rem;
+    color: #FFFFFF;
+}
+.contact-form h4 {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    color: #9190A6;
+    margin: 1rem 0 2rem 0;
+}       
+hr {
+    border-top: .0625rem solid #9190A6;
+    margin: 15rem 0 0 0;
+}
+.footer-logo {
+    margin: 0 0 5rem 0;
+}
+.footer-copyright {
+    margin: 3rem 0 0 0;
+}
+.footer {
+    color: #9190A6;
+    background-color: inherit;
+    padding: 0;
+    margin: 0;
+}
+.footer-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.footer-nav li a {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+    display: block;
+}
+.footer-nav li {
+    margin: 1rem 3rem 1rem 3rem;
+}
+.footer-nav li:first-of-type {
+    margin: 1rem 3rem 1rem 0;
+}
+.footer-nav li:last-of-type {
+    margin: 0 0 0 3rem;
+}
+h4.alert {
+    position: absolute;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    color: #9190A6;
+    margin: 1rem 0 0 0 !important;
+    padding: 0 2rem 0 0 !important;
+}
+/* RESPONSIVE */
+@media(max-width: 991px) {
+    .page-header {
+        height: 100%;
+    }
+    img.phone-01,
+    img.phone-02,
+    img.shapes-01,
+    img.shapes-02,
+    img.shapes-03,
+    .image-container img {
+        display: none;
+    }
+    .section-download-description h1,
+    .section-download-description h6,
+    .section-download-description a,
+    .section-download-description a.download-btn img {
+        text-align: center;
+    }
+}
+.modal-cookies {
+    background-size: 200% 200%;
+    background-position: 100% 100%;
+    background: #131A34;
+}
+input, textarea {
+    border: 0;
+    padding: 3px 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    outline: 0;
+}
+.is-floating-label {
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-flow: column-reverse;
+            flex-flow: column-reverse;
+    margin: 0 0 1.5rem 0;
+}
+.is-floating-label input,
+.is-floating-label textarea {
+    background-color: transparent;
+}
+.is-floating-label textarea,
+.is-floating-label #contact-name {
+    margin: 0 0 1.5rem 0;
+}
+.is-floating-label input:last-of-type {
+    margin: 1.5rem 0;
+}
+.is-floating-label label {
+    color: #FFFFFF;
+    position: absolute;
+    padding: 0.1rem 0.1rem 0.1rem 0;
+    margin-left: 1.2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #131A34;
+    position: absolute;
+    top: 1.3rem;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.is-floating-label.is-focused label {
+    top: 0rem;
+}

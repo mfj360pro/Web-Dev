@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "Cocogoose Pro Regular";
+    src: url("../font/cocogoose-pro/Cocogoose-Pro-Regular.woff2") format('woff2'),
+        url("../font/cocogoose-pro/Cocogoose-Pro-Regular.woff") format('woff');
+    font-weight: 200; 
+}
+#toolbar-container .ql-picker-label span[data-label="Cocogoose"]::before {
+    font-family: "Cocogoose Pro Regular";
+}
+
+#toolbar-container .ql-picker-label span[data-label="10px"]::before {
+    font-size: 10px;
+}
+#toolbar-container .ql-picker-label span[data-label="12px"]::before {
+    font-size: 12px;
+}
+
+#toolbar-container .ql-picker-label span[data-label="15px"]::before {
+    font-size: 15px;
+}
+
+#toolbar-container .ql-picker-label span[data-label="20px"]::before {
+    font-size: 20px;
+}
+
+#toolbar-container .ql-picker-label span[data-label="30px"]::before {
+    font-size: 30px;
+}
+
+.ql-font-cocogoose {
+    font-family: "Cocogoose Pro Regular";
+}
+.ql-size-10px {
+    font-size: 10px;
+}
+.ql-size-12px {
+    font-size: 12px;
+}
+.ql-size-15px {
+    font-size: 15px;
+}
+.ql-size-20px {
+    font-size: 20px;
+}
+.ql-size-30px {
+    font-size: 30px;
+}
+li.ql-align-justify {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Cocogoose Pro Regular";
+    /* color: #ffffff !important; */
+}
+
+/* NAV */
+li.active {
+    font-weight: 700;
+    background-color: #e9ecef;
+}

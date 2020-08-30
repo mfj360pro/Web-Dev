@@ -1,0 +1,145 @@
+* {
+    font-family: 'Titillium Web', sans-serif;
+}
+.subtext {
+    font-weight: 200 !important;
+}
+.copyright-text {
+    font-size: 12px !important;
+}
+
+.h1.font-titillium {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+}
+.h2.font-titillium {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+}
+.h3.font-titillium {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+}
+.landing-slogan {
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+}
+
+/* html,
+body, */
+header,
+.view {
+    height: 100%;
+}
+
+body,
+main {
+    position: relative;
+}
+
+.full-page-intro {
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 130vh;
+}
+
+.view.overlay.zoom {
+    cursor: pointer;
+}
+
+
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #353e4d!important;
+    }
+}
+
+/* Navbar animation */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.1); 
+}
+
+.navbar-services {
+    background-color: #353e4d;
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+.top-nav-collapse {
+    background-color: #353e4d;
+}
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #353e4d; 
+    } 
+}
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer,
+#recent-tours {
+    background-color: #353e4d !important; 
+}
+
+
+
+
+.spacer-1 {
+    position: relative;
+    z-index: -1;
+    height: 10vh;
+}
+.spacer-2 {
+    position: relative;
+    z-index: -1;
+    height: 20vh;
+}
+.spacer-3 {
+    position: relative;
+    z-index: -1;
+    height: 30vh;
+}
+@media only screen and (max-width: 768px) {
+    .spacer-1 {
+        position: relative;
+        z-index: -1;
+        height: 5vh;
+    }
+    .spacer-2 {
+        position: relative;
+        z-index: -1;
+        height: 10vh;
+    }
+    .spacer-3 {
+        position: relative;
+        z-index: -1;
+        height: 15vh;
+    }
+}
+.blob {
+    position: absolute;
+    z-index: -1;
+}
+
+.blob-bottom {
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+
+.blob-waves {
+    position: absolute !important;
+    bottom: 0;
+}
+.blob-01 {
+    position: absolute;
+    height: 50%;
+    right: 0;
+}
+.blob-02 {
+    bottom: 0;
+}
