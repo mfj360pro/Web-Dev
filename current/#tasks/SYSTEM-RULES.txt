@@ -1,0 +1,39 @@
+
+=========================================================================================
+
+STATUS FLOW
+
+Client's Status View	|	Work Status		|	Assigned To
+In Progress		|	Available		|	--
+In Progress		|	Shooting		|	Photographer's Name
+In Progress		|	Designing		|	Designer's Name
+In Progress		|	Final Editing		|	Final Editor's Name
+Ready			|	Complete		|	--
+
+=========================================================================================
+
+ROLES
+
+1 - Super Administrator
+2 - Administrator
+3 - Virtual Assistant
+4 - Customer
+5 - Photographer
+6 - Graphic Designer
+7 - Final Editor
+
+=========================================================================================
+
+PERMISSIONS
+
+LEVEL 1 [Super Administrators]
+LEVEL 2 [Administrators]
+LEVEL 3 [Virtual Assistants, Final Editors]
+LEVEL 4 [Photographers, Graphic Designers]
+LEVEL 5 [Customers]
+
+=========================================================================================
+
+ACTIONS
+
+-- TO FOLLOW --

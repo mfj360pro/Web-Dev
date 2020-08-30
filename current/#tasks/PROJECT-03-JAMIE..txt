@@ -1,0 +1,120 @@
+
+===============================================================================================
+
+On the photographer they don't need to see matterport links or video
+I would like to be able to make done when viewing the shoot
+
+admin->shoots
+  - when viewing a shoot i get this error illegal string
+
+portal->shoots
+  - assigned to we don't need
+  - when shoot is Ready i only want what the editor has made alive
+
+portal->profile
+  - needs 
+      - company name
+      - company address
+  - i don't see a way for the logo and the profile pic
+
+editor->shoots
+  - need a way to photos and videos alive
+  
+With all the portals i think it would be nice to have the done ones in a different tab on the shoots page 
+
+I would like to have a permission thing were i can say to witch VA ca see what tabs..  
+  - or if i can add a Role that i can select the tabs of witch the Role can see, 
+    and i can put a rule per account
+
+Customer Portal->add shoot
+  - I would like the total with and without the promo code in the total
+  - its not sending
+
+the iframe and the herf link needs to be per shoot and not per person... 
+and the video we need to be able to add alot... 
+and it wont just be videos so its a marking tab so anything marking goes there.. 
+and if theres nothing there the client doesn't see
+
+===============================================================================================
+
+after the promotion part we need to work on how the shoot goes through the system.. 
+- when the shoot gets summit it need to find the photographer in that zip code and 
+  send it to them
+
+photographer
+- need to see everything about the shoot.
+- they need to add photos to the shoot.
+- they need to add private notes and public notes per shoot
+- they need to be able to put done with shoot
+
+after that it needs to go to the graphic designer
+- they need to be able to download the pics from the shoots and download new pics. 
+  i would like it if the old pics will stay on and when they upload the new pics it will show     that they are new pics
+- they need to be able to put the mattorport link in 
+  there so the client can see it and use it.. 
+  theres going to be 2 links one is a link and other is going to be a iframe.. 
+  so i need a spot for both of them
+- need a spot for them to say that they are done.
+
+after that it needs to go to my VA
+- the VA show be able to do everything that the past people can do
+- the VA can summit it to be done where the client can see everything..
+
+===============================================================================================
+
+Project needs to be able to upload pictures, iframe link, and a herf link. 
+
+The photographers need to be able to add notes and so does the clients, per project. 
+The photographer gui when marked as on going or done it needs to change colors.
+
+In the status bar it should say where the job is held. 
+IE: 
+- When the photographer is done it will go to the designer, 
+- When the designer is done it will go to final editor, 
+- When the final editor is done the client will then be able to see the project.
+
+When the photographer hits [Make it my shoot] 
+client will see status of [In Progress] 
+until the final editor is complete then client will see [Ready].
+
+On the up-loaders: 
+
+Photographers to have their own section of photos, 
+Final editor(VA) to have a section for their uploaded photos. 
+All on the same page with the different titles of who uploaded the photos. 
+
+Uploaders should only be able to delete their own pictures and not any from the other departments. 
+
+VA & up permissions should be able to make the pictures alive so the client is able to view and download, including MP4 files as well. 
+
+===============================================================================================
+
+- Client Portal
+  - on the add new shoot it as subscribe to promotions.. we don't need that.. 
+  - when adding a promo code it doesn't close the window, so i want it to be 
+    one code per client ..
+  - so we don't need the promo codes tab, but having something that shows 
+    that the promo code is still alive on the shoots page.. 
+  - how about when they have a promo code alive, 
+    the button that says enter promo code will be initiative and say the promo code name?? 
+    and i notice that the promos don't work with the total of the price..
+  - on the profile
+  - (i know we haven't talked about it but it will be good to say it when its in my mind) 
+  - i would love it if they can put there logo the company name and slogan, 
+  - and i don't like the grid look on this one if we can make it look like a form 
+    and a submit button on the bottom. I think that would look good..
+
+- Shoots Page 
+  - i would like it to be in sections one for new shoots.. 
+    so ones that are not all the way done.. 
+    one for done on are part where its alive and they can do whatever to it.. 
+    and one for that it's archive where they don't need it anymore..  
+
+- On the Get-a-Quote 
+  - the layout i think looks better.. 
+  - on the scheduling part i think all we need is when can we shoot date.
+
+- On the work flow chart.. 
+  - thats is what we need right there 
+    the only thing i would change will be designer will be open to all VAs, and designers.. 
+    and final editor only VAs and admin

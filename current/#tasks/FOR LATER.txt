@@ -1,0 +1,21 @@
+
+==================================================================================================================================================
+
+i would like a task part on the website
+- I would be able to put in a task and asinine it to an employee.. 
+
+the task fields should be:
+- created date
+- task name
+- details
+
+so we need to link it to you or my VA.. 
+I might use it for photographers so that might be good to link it to them too
+and I would like to have messages per task so we can have a discussion per task.. 
+and of course anything you might think of like a done or go check button?? 
+then a button for me to archieve it, and a way to see past task and make it active again..
+
+trying to make it where all my employees have to do everything through the website.. 
+it makes it so much easier for everyone.. 
+
+==================================================================================================================================================
